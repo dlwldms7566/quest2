@@ -6,7 +6,10 @@
 }
 
 /*
--about.html 박스안 글씨들*/
+1. index.html 사진 크기
+2. about.html table 사용X: 수도 class/ css selector/ float 사용
+3. 네모들 크기 210
+*/
 
 .header {
     height: 120px;
@@ -49,13 +52,10 @@
     width: 100%;
     margin: 30px auto 30px auto;
     text-align: center;
-}
-
-.icon_title>h4 {
     font-size: 10px;
 }
 
-.icon_title>h1 {
+.icon_title>span {
     font-size: 20px;
     font-weight: bold;
 }
@@ -69,7 +69,8 @@
     float: left;
     text-align: center;
     width: 250px;
-    margin-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-bottom: 1px dotted;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -174,22 +175,33 @@
 
 .box_all {
     width: 1000px;
+    height: 500px;
     margin: 0px auto;
 }
 
-.box_all>table {
-    width: 1000px;
+.box {
+    background: #695E50;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0px 0px;
+}
+
+.box_cover {
+    width: 750px;
     height: 500px;
-    border-collapse: collapse;
-    line-height: 170%;
+    /* margin: 0px 0px; */
 }
 
-th, td {
-    vertical-align: top;
+.box:nth-child(even) {
+    background: #CD8550;
 }
 
-.cover {
-    margin: 20px 20px;
+.beige {
+    background: #D2B98A;
+    width: 250px;
+    height: 500px;
+    float: right;
 }
 
 .footer {
