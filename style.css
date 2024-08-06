@@ -7,8 +7,7 @@
 
 /*
 1. index.html 사진 크기
-2. about.html table 사용X: 수도 class/ css selector/ float 사용
-3. 네모들 크기 210
+2. 네모들 크기 210
 */
 
 .header {
@@ -112,17 +111,13 @@
     float: right;
 }
 
-.box {
+.top {
     font-size: 14px;
     font-family:'Malgun Gothic';
     color: black;
-    margin: 30px auto 0px auto;
-}
-
-.top {
     width: 1000px;
     height: 500px;
-    margin: 0px auto;
+    margin: 30px auto 0px auto;
 }
 
 .chef_about {
@@ -177,6 +172,9 @@
     width: 1000px;
     height: 500px;
     margin: 0px auto;
+    font-size: 14px;
+    font-family:'Malgun Gothic';
+    color: black;
 }
 
 .box {
@@ -185,12 +183,21 @@
     height: 250px;
     float: left;
     margin: 0px 0px;
+    line-height: 150%;  
+}
+ 
+.box>h2 {
+    margin: 20px 15px 0px 15px;
+}
+
+.box>p {
+    margin: 20px 15px;
 }
 
 .box_cover {
     width: 750px;
     height: 500px;
-    /* margin: 0px 0px; */
+    margin: 0px 0px;
 }
 
 .box:nth-child(even) {
@@ -207,6 +214,9 @@
 .footer {
     width: 1000px;
     margin: 10px auto 40px auto;
+    font-size: 14px;
+    font-family:'Malgun Gothic';
+    color: black;
 }
 
 .f {
