@@ -6,7 +6,6 @@
 }
 
 /*
-1. index.html 사진 크기
 2. 네모들 크기 210
 */
 
@@ -43,7 +42,7 @@
 }
 
 .main_picture>img {
-    max-width: 100%;
+    width: 100%;
     height: 464px;
 }
 
@@ -179,35 +178,32 @@
 
 .box {
     background: #695E50;
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     float: left;
-    margin: 0px 0px;
+    padding: 20px;
     line-height: 150%;  
-}
- 
-.box>h2 {
-    margin: 20px 15px 0px 15px;
-}
-
-.box>p {
-    margin: 20px 15px;
 }
 
 .box_cover {
     width: 750px;
     height: 500px;
-    margin: 0px 0px;
+    float: left;
 }
 
 .box:nth-child(even) {
     background: #CD8550;
 }
 
+.box>h2 {
+    margin-bottom: 15px;
+}
+
 .beige {
     background: #D2B98A;
-    width: 250px;
-    height: 500px;
+    width: 210px;
+    height: 460px;
+    padding: 20px;
     float: right;
 }
 
@@ -230,7 +226,7 @@
 }
 
 .footer>h6 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 14px;
 }
